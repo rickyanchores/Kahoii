@@ -1,0 +1,37 @@
+.grid-container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 35% 1fr 1fr 1fr;
+    grid-template-rows: 10% 1fr 10%;
+    grid-template-areas: "logo logo nav nav"
+                        "main box1 box2 box3"
+                        "footer footer footer footer";
+}
+
+#logo{
+    grid-area: logo;
+}
+#navbar{
+    grid-area: nav;
+}
+#main{
+    grid-area: main;
+}
+.box1{
+    grid-area: box1;
+    margin: 0.5em;
+}
+
+.box2{
+    grid-area: box2;
+    margin: 0.5em;
+}
+
+.box3{
+    grid-area: box3;
+    margin: 0.5em;
+}
+
+#main-footer{
+    grid-area: footer;
+}

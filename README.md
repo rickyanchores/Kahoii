@@ -1,2 +1,1 @@
-# Kahoii
-Kahoii Interior Design
+# rickyanchores

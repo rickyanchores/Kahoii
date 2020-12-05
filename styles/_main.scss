@@ -1,0 +1,16 @@
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+.btn-main{
+    background: none;
+    color: orange;
+    font-size: 1em;
+    h5:hover{
+        border-bottom: 2px solid orange;
+        
+    }
+}

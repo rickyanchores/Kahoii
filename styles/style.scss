@@ -1,0 +1,44 @@
+@import './grid-container';
+@import './boxes';
+@import './nav';
+@import './logo';
+@import './main';
+@import './footer';
+
+/* PAGES */
+
+@import './collection';
+@import './about';
+
+
+$bgColor: #171616; 
+$primaryColor: #F4EFEF;
+$orangeColor: #E3810F;
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: $bgColor;
+    font-family:'Lato', sans-serif;
+     /*'Montserrat', sans-serif; */
+    color: whitesmoke;
+    height: 100vh; 
+}
+
+
+button{
+    padding: 1em 1.5em;
+    border-radius: 30px;
+    border:none;
+}
+button:hover{
+    background: $orangeColor;
+    color: white;
+}
+
+
+/* COLLECTION */
+

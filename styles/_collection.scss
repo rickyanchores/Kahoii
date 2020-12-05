@@ -1,0 +1,87 @@
+body{
+    line-height: 1.6;
+}
+*{
+    
+    box-sizing: border-box;
+}
+/* BOXES */
+
+.box1c{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 100vh;
+    background: #333;
+    padding: 50px;
+    margin: 1em;
+    img{
+        display: flex;
+        justify-content: center;
+        background: grey;
+        width: 50%;
+        height: 100%; 
+    }
+    .box-desc{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        height: 100%;
+        font-size: 2em;
+    }
+}
+
+.box2c{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 100vh;
+    background: #333;
+    padding: 50px;
+    margin: 1em;
+    img{
+        display: flex;
+        justify-content: center;
+        background: grey;
+        width: 50%;
+        height: 100%; 
+    }
+    .box-desc{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        height: 100%;
+        font-size: 2em;
+    }
+}
+
+.box3c{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 100vh;
+    background: #333;
+    padding: 50px;
+    margin: 1em;
+    img{
+        display: flex;
+        justify-content: center;
+        background: grey;
+        width: 50%;
+        height: 100%; 
+    }
+    .box-desc{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        height: 100%;
+        font-size: 2em;
+    }
+}
+
+
+// Media Query
+
